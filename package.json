@@ -1,0 +1,36 @@
+{
+  "name": "promise-helper-library",
+  "version": "1.0.0",
+  "description": "Utility functions for enhanced promise operations in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krischuk01/promise-helper-library"
+  },
+  "keywords": [
+    "promise",
+    "utilities",
+    "async",
+    "await",
+    "retry",
+    "timeout",
+    "delay"
+  ],
+  "author": "Mathew Ortex",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "p-retry": "^4.5.0",
+    "p-timeout": "^4.2.0",
+    "delay": "^5.0.0",
+    "p-queue": "^7.1.0",
+    "lodash": "^4.17.21",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
